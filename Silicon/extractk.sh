@@ -11,8 +11,8 @@ do
   label="nk${k}"
 # selects the penultimum field counted by awk
   etot=`grep '!' $filedir/scf_${label}.out | awk '{print $(NF-1)}'`
-  #num_k_p=`grep 'number of k points' $filedir/scf_${label}.out | awk '{print $(NF)}'`
-  num_k_p=$k
+  num_k_p=`grep 'number of k points' $filedir/scf_${label}.out | awk '{print $(NF)}'`
+  #num_k_p=$k
   conv_time=`grep 'PWSCF  ' $filedir/scf_${label}.out | awk '{print $(NF-3)}'`
   echo $etot, $num_k_p, $conv_time >> $filedir/energy_nk.txt
 done
