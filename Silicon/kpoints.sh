@@ -36,7 +36,7 @@ do
  &SYSTEM
     ibrav = 2, 
     celldm(1) =$alat
-    nat = 1, 
+    nat = 2, 
     ntyp = 1,
     ecutwfc =  $ecutwfc
  /
@@ -49,6 +49,7 @@ do
   Si   12.011   Si.pz-vbc.UPF
  ATOMIC_POSITIONS (alat)
   Si 0.00 0.00 0.00
+  Si 0.25 0.25 0.25
  K_POINTS {automatic}
   $k $k $k   0 0 0 
 

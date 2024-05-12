@@ -9,7 +9,7 @@
  &SYSTEM
     ibrav = 2, 
     celldm(1) =10.263101844
-    nat = 1, 
+    nat = 2, 
     ntyp = 1,
     ecutwfc =  40
  /
@@ -22,6 +22,7 @@
   Si   12.011   Si.pz-vbc.UPF
  ATOMIC_POSITIONS (alat)
   Si 0.00 0.00 0.00
+  Si 0.25 0.25 0.25
  K_POINTS {automatic}
   8 8 8   0 0 0 
 

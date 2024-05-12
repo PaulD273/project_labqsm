@@ -1,0 +1,5 @@
+&BANDS
+    prefix = 'diamond'
+    outdir = './SCRATCH/'
+    filband = 'bands_diamond.dat'
+ /
