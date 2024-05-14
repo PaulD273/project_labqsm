@@ -12,6 +12,7 @@ alat=10.263101844
 k=8
 
 ecut="40 60 80 100 120"
+#ecut="50"
 
 for ec in $ecut
 do
@@ -47,7 +48,7 @@ do
     conv_thr =  1.0d-8
  /
  ATOMIC_SPECIES
-  Si   12.011   Si.pz-vbc.UPF
+  Si   28.085   Si.pz-vbc.UPF
  ATOMIC_POSITIONS (alat)
   Si 0.00 0.00 0.00
   Si 0.25 0.25 0.25
