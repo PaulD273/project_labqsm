@@ -11,8 +11,8 @@ filedir=$jobdir/cutoff_conv
 alat=10.263101844
 k=8
 
-ecut="40 60 80 100 120"
-#ecut="50"
+ecut="40 50 60 80 100 120"
+
 
 for ec in $ecut
 do

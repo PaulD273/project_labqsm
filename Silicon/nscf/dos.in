@@ -1,0 +1,6 @@
+&DOS
+    prefix='silicon',
+    outdir ='./SCRATCH/'
+    degauss=0.025  
+    fildos ='silicon.dos'
+/

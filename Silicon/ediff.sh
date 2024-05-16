@@ -15,8 +15,8 @@ alat=10.46836388088
 stretch=2
 k=8
 
-ecut="40 60 80 100 120"
-#ecut="50"
+ecut="40 50 60 80 100 120"
+
 
 for ec in $ecut
 do
