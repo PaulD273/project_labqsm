@@ -1,0 +1,5 @@
+&BANDS
+    prefix = 'silicon'
+    outdir = './SCRATCH/'
+    filband = 'bands_silicon.dat'
+ /

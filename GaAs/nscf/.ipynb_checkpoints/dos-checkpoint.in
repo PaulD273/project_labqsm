@@ -1,0 +1,6 @@
+&DOS
+    prefix='silicon',
+    outdir ='./SCRATCH/'
+    degauss=0.01  
+    fildos ='silicon_01.dat'
+/

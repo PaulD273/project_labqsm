@@ -1,0 +1,6 @@
+&DOS
+    prefix='gallium_arsenide',
+    outdir ='./SCRATCH/'
+    degauss=0.025  
+    fildos ='gaas_025.dat'
+/
