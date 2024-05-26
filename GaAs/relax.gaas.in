@@ -1,17 +1,13 @@
 &CONTROL
     prefix='gallium_arsenide',
-    calculation = 'scf'
+    calculation = 'vc-relax'
     restart_mode='from_scratch',
     pseudo_dir = '/home/paolo/project_labqsm/pseudopotentials'
     outdir = './SCRATCH'
  /
  &SYSTEM
     ibrav = 2, 
-<<<<<<< HEAD
-    celldm(1) = 10.682904472
-=======
-    celldm(1) = 10.683093445
->>>>>>> d8ff0f2cef7fea1f6e372856896f2bb491f04e6c
+    celldm(1) = 10.883093445
     nat = 2, 
     ntyp = 2,
     ecutwfc =  60.0
@@ -21,16 +17,18 @@
     mixing_beta = 0.7
     conv_thr =  1.0d-8
  /
+ &IONS
+ /
+ &CELL
+    cell_dynamics="bfgs"
+    press_conv_thr=0.5
+    cell_dofree='all'
+ /
 ATOMIC_SPECIES
  Ga   69.723   Ga.upf
  As   74.922   As.upf
 ATOMIC_POSITIONS (alat)
-<<<<<<< HEAD
- Ga   69.723   Ga.pz-bhs.UPF
- As   74.922   As.pz-bhs.UPF
-=======
  Ga 0.00 0.00 0.00
  As 0.25 0.25 0.25
->>>>>>> d8ff0f2cef7fea1f6e372856896f2bb491f04e6c
 K_POINTS {automatic}
  8 8 8   0 0 0 
