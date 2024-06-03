@@ -1,0 +1,6 @@
+&DOS
+    prefix='zns',
+    outdir ='./SCRATCH/'
+    degauss=0.01  
+    fildos ='zns_01.dat'
+/

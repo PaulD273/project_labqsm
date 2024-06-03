@@ -1,0 +1,5 @@
+&BANDS
+    prefix = 'zns'
+    outdir = './SCRATCH/'
+    filband = 'bands_zns.dat'
+ /
