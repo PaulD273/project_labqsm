@@ -1,5 +1,5 @@
 
-     Program DOS v.7.2 starts on 16May2024 at 19:49:24 
+     Program DOS v.7.2 starts on  9Jun2024 at 11:51:10 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -11,7 +11,7 @@
      http://www.quantum-espresso.org/quote
 
      Serial version
-     9441 MiB available memory on the printing compute node when the environment starts
+     8228 MiB available memory on the printing compute node when the environment starts
 
 
      Reading xml data from directory:
@@ -19,8 +19,8 @@
      ./SCRATCH/silicon.save/
 
      IMPORTANT: XC functional enforced from input :
-     Exchange-correlation= PZ
-                           (   1   1   0   0   0   0   0)
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
      Any further DFT definition will be discarded
      Please, verify this is what you really want
 
@@ -28,18 +28,18 @@
      G-vector sticks info
      --------------------
      sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
-     Sum         859     859    253                16625    16625    2741
+     Sum         889     889    265                17453    17453    2891
 
      Using Slab Decomposition
 
 
-     Gaussian broadening (read from input): ngauss,degauss=   0    0.010000
+     Gaussian broadening (read from input): ngauss,degauss=   0    0.025000
 
 
-     DOS          :      0.11s CPU      0.12s WALL
+     DOS          :      0.11s CPU      0.15s WALL
 
 
-   This run was terminated on:  19:49:24  16May2024            
+   This run was terminated on:  11:51:10   9Jun2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

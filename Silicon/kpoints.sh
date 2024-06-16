@@ -46,7 +46,7 @@ do
     conv_thr =  1.0d-8
  /
  ATOMIC_SPECIES
-  Si   28.085   Si.pz-vbc.UPF
+  Si   28.085   Si_ONCV_PBE-1.2.upf
  ATOMIC_POSITIONS (alat)
   Si 0.00 0.00 0.00
   Si 0.25 0.25 0.25

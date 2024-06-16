@@ -12,7 +12,8 @@
     celldm(1) = 11.2170496956
     nat = 2, 
     ntyp = 2,
-    ecutwfc =  60.0
+    ecutwfc =  40
+    ecutrho = 400
  /
  &ELECTRONS
     mixing_mode = 'plain'
@@ -27,8 +28,8 @@
     cell_dofree='all'
  /
 ATOMIC_SPECIES
- Ga   69.723   Ga.pz-bhs.UPF
- As   74.922   As.pz-bhs.UPF
+ Ga   69.723   Ga.pbe-dn-rrkjus_psl.0.2.UPF
+ As   74.92160 As.pbe-n-rrkjus_psl.0.2.UPF
 ATOMIC_POSITIONS (alat)
  Ga 0.00 0.00 0.00
  As 0.25 0.25 0.25

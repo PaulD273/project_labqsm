@@ -6,7 +6,8 @@
 filedir=/home/paolo/project_labqsm/GaAs/cutoff_conv
 
 k=8
-ecut="40 50 60 70 80 100 120"
+
+ecut="20 30 40 50 60 70 80"
 #filelist=$filedir/scf_nk8_*.out
 #echo "Ecut[Ry],   Etot[Ry],  convergence time" >> energy_ecut.txt
 for ec in $ecut

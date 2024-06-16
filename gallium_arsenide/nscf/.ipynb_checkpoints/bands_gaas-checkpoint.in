@@ -1,0 +1,5 @@
+ &BANDS
+    prefix = 'gallium arsenide'
+    outdir = './SCRATCH/'
+    filband = 'bands_gaas.dat'
+ /

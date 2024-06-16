@@ -37,7 +37,8 @@ do
     celldm(1) = $alat
     nat = 2, 
     ntyp = 2,
-    ecutwfc =  60.0
+    ecutwfc =  33
+    ecutrho = 330
  /
  &ELECTRONS
     mixing_mode = 'plain'
@@ -45,8 +46,8 @@ do
     conv_thr =  1.0d-8
  /
 ATOMIC_SPECIES
- Ga   69.723   Ga.pz-bhs.UPF
- As   74.922   As.pz-bhs.UPF
+ Ga   69.723   Ga.pbe-dn-rrkjus_psl.0.2.UPF
+ As   74.922   As.pbe-n-rrkjus_psl.0.2.UPF
 ATOMIC_POSITIONS (alat)
  Ga 0.00 0.00 0.00
  As 0.25 0.25 0.25

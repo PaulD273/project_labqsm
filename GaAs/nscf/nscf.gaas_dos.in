@@ -8,11 +8,11 @@
  /
  &SYSTEM
     ibrav = 2, 
-    celldm(1) = 10.583135859143026
+    celldm(1) = 10.864498500951983
     nat = 2, 
     ntyp = 2,
     ecutwfc =  60.0
-    nbnd = 10
+    nbnd = 13
  /
  &ELECTRONS
     mixing_mode = 'plain'
@@ -20,8 +20,8 @@
     conv_thr =  1.0d-8
  /
 ATOMIC_SPECIES
- Ga   69.723   Ga.pz-bhs.UPF
- As   74.922   As.pz-bhs.UPF
+ Ga   69.723   Ga_ONCV_PBE-1.2.upf
+ As   74.922   As_ONCV_PBE-1.2.upf
 ATOMIC_POSITIONS (alat)
  Ga 0.00 0.00 0.00
  As 0.25 0.25 0.25

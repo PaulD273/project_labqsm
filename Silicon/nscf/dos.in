@@ -1,6 +1,6 @@
 &DOS
     prefix='silicon',
     outdir ='./SCRATCH/'
-    degauss=0.01  
-    fildos ='silicon_01.dat'
+    degauss=0.025  
+    fildos ='silicon_025.dat'
 /

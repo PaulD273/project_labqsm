@@ -19,8 +19,8 @@
     conv_thr =  1.0d-8
  /
 ATOMIC_SPECIES
- Zn   65.38   Zn.pz-hgh.UPF
- S    32.06   S.pz-hgh.UPF
+ Zn   65.38   Zn_ONCV_PBE-1.2.upf
+ S    32.06   S_ONCV_PBE-1.2.upf
 ATOMIC_POSITIONS (alat)
  Zn 0.00 0.00 0.00
  S  0.25 0.25 0.25

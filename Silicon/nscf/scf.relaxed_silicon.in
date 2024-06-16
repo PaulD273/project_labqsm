@@ -7,7 +7,7 @@
  /
  &SYSTEM
     ibrav = 2, 
-    celldm(1) = 10.207932774556962
+    celldm(1) = 10.351192959340226
     nat = 2, 
     ntyp = 1,
     ecutwfc =  60.0
@@ -18,7 +18,7 @@
     conv_thr =  1.0d-8
  /
 ATOMIC_SPECIES
- Si   28.085   Si.pz-vbc.UPF
+ Si   28.085   Si_ONCV_PBE-1.2.upf
 ATOMIC_POSITIONS (alat)
  Si 0.00 0.00 0.00
  Si 0.25 0.25 0.25

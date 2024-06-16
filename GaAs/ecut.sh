@@ -11,12 +11,12 @@ filedir=$jobdir/cutoff_conv
 alat=10.682904472
 k=8
 
-ecut="40 50 60 70 80 100 120"
+ecut="20 30 40 50 60 70 80"
 
 
 for ec in $ecut
 do
-  ecrho=$(($ec*4))
+  ecrho=$(($ec*10))
 
   label="nk${k}_ecut${ec}"
   
@@ -48,8 +48,8 @@ do
     conv_thr =  1.0d-8
  /
 ATOMIC_SPECIES
- Ga   69.723   Ga.pz-bhs.UPF
- As   74.922   As.pz-bhs.UPF
+ Ga   69.723   Ga.pbe-dn-rrkjus_psl.0.2.UPF
+ As   74.922   As.pbe-n-rrkjus_psl.0.2.UPF
 ATOMIC_POSITIONS (alat)
  Ga 0.00 0.00 0.00
  As 0.25 0.25 0.25
